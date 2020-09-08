@@ -304,8 +304,8 @@
 						<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
 							<h4>
 								<div id="myBtnContainer">
-  								<button class="btn active" onclick="filterSelection('concept')">Concept Art</button>
-  								<button class="btn" onclick="filterSelection('portraits')"> Portraits</button>
+								<button class="btn active" onclick="filterSelection('portraits')">Concept Characters</button>
+  								<button class="btn" onclick="filterSelection('concept')">Concept Art</button>  								
  							 	<button class="btn" onclick="filterSelection('props')"> Game Props</button>
   								<button class="btn" onclick="filterSelection('environment')"> Environment art</button>
 								</div>
@@ -329,20 +329,6 @@
 						</div>
 					
 					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-						<div class="column concept">
-							<div class="project" style="background-image: url(images/GodOfGreece_RePaint.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">God of Greece</a></h3>
-										<span>Concept art-Character</span>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="column props">
 							<div class="project" style="background-image: url(images/materialStudy2SizeFull.png);">
 								<div class="desc">
@@ -370,19 +356,19 @@
 						</div>
 						</div>
 					
-					<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 						<div class="column concept">
-							<div class="project" style="background-image: url(images/ShadowViking_Full.png);">
+							<div class="project" style="background-image: url(images/GodOfGreece_RePaint.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">The Shadow Viking</a></h3>
-										<span>Character Concept art</span>
+										<h3><a href="work.html">God of Greece</a></h3>
+										<span>Concept art-Character</span>
 										
 									</div>
 								</div>
 							</div>
 						</div>
-						</div>
+					</div>
 					
 					<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
 						<div class="column concept">
@@ -604,7 +590,7 @@
 	</body>
 	
 	<script>
-filterSelection("concept")
+filterSelection("portraits")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
