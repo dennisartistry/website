@@ -303,13 +303,13 @@
 						
 						<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
 							<h4>
-    							<a class="active" onclick="filterSelection('concept')" style="cursor:pointer">Concept Art</a> &nbsp; &nbsp;
-    
-							<a onclick="filterSelection('portraits')" style="cursor:pointer">Portraits</a>    &nbsp; &nbsp;
-    
-							<a onclick="filterSelection('props')" style="cursor:pointer">Game Props</a> &nbsp; &nbsp;
-    
-							<a onclick="filterSelection('environment')" style="cursor:pointer"> Environment art</a>
+								<div id="myBtnContainer">
+  								<button class="btn active" onclick="filterSelection('concept')">Concept Art</button>
+  								<button class="btn" onclick="filterSelection('portraits')"> Portraits</button>
+ 							 	<button class="btn" onclick="filterSelection('props')"> Game Props</button>
+  								<button class="btn" onclick="filterSelection('environment')"> Environment art</button>
+								</div>
+								
  							</h4>
 						</div>
 					</div>
@@ -604,7 +604,7 @@
 	</body>
 	
 	<script>
-filterSelection("nature")
+filterSelection("concept")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
